@@ -104,7 +104,20 @@ section h2 {
     max-width: 105px;
     height: auto;
 }
+@media (max-width: 768px) {
+    .logo {
+        max-width: 80px; /* Reduce el tamaño del logo en pantallas medianas */
+    }
+}
 
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 0px) {
+    .logo {
+        max-width: 300px; /* Reduce más el tamaño en pantallas pequeñas */
+        top: 5px; /* Ajusta el margen superior */
+        right: 10px; /* Ajusta el margen derecho */
+    }
+}   
 .read-more {
     color: #003366;
     font-weight: 600;
