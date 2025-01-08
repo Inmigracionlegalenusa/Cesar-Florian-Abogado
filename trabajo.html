@@ -94,6 +94,27 @@
     <footer>
         <p>&copy; 2025 Abogado de Inmigración. Todos los derechos reservados. | <a href="#contacto">Contáctame</a></p>
     </footer>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("0sHsPa5Bqow52X2dW");  // Usa tu user_id
+        })();
+
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            // Verifica que el formulario esté siendo enviado correctamente
+            const form = event.target;
+            emailjs.sendForm("service_hy1tfoi", "template_vw5xzlq", form)
+                .then(function(response) {
+                    alert("¡Gracias por contactarnos, " + form.name.value + "! Nos pondremos en contacto contigo pronto.");
+                })
+                .catch(function(error) {
+                    console.error("Error al enviar el mensaje:", error);  // Imprime más detalles en la consola
+                    alert("Hubo un problema al enviar el mensaje. Intenta nuevamente.");
+                });
+        });
+    </script>
 
 </body>
 </html>

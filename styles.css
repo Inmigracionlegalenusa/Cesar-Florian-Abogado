@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-    color: #007bff;
+    color: #003366;
 }
 
 /* Header Section */
@@ -45,7 +45,7 @@ header p {
 }
 
 .cta-button {
-    background-color: #007bff;
+    background-color: #003366;
     color: white;
     padding: 14px 35px;
     font-size: 18px;
@@ -55,7 +55,7 @@ header p {
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #002244;
 }
 
 /* Section Styling */
@@ -84,7 +84,7 @@ section h2 {
 
 .service-item h3, .blog-entry h3 {
     font-size: 24px;
-    color: #007bff;
+    color: #003366;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -96,7 +96,7 @@ section h2 {
 }
 
 .read-more {
-    color: #007bff;
+    color: #003366;
     font-weight: 600;
     font-size: 14px;
 }
@@ -123,7 +123,7 @@ section h2 {
     display: block;
     margin-top: 10px;
     font-weight: bold;
-    color: #007bff;
+    color: #003366;
 }
 
 /* Form Styling */
@@ -156,12 +156,12 @@ section h2 {
 }
 
 #contact-form input:focus, #contact-form textarea:focus {
-    border-color: #007bff;
+    border-color: #003366;
     outline: none;
 }
 
 #contact-form button {
-    background-color: #007bff;
+    background-color: #003366;
     color: white;
     padding: 14px 25px;
     font-size: 18px;
@@ -173,7 +173,7 @@ section h2 {
 }
 
 #contact-form button:hover {
-    background-color: #0056b3;
+    background-color: #002244;
 }
 
 /* Footer */
