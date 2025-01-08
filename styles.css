@@ -106,7 +106,7 @@ section h2 {
 }
 @media (max-width: 768px) {
     .logo {
-        max-width: 80px; /* Reduce el tamaño del logo en pantallas medianas */
+        max-width: 78px; /* Reduce el tamaño del logo en pantallas medianas */
     }
 }
 
