@@ -94,7 +94,13 @@ section h2 {
     color: #555;
     margin-bottom: 20px;
 }
-
+.logo {
+    position: absolute;
+    top: 10px; /* Ajusta el valor según lo necesario */
+    right: 20px; /* Ajusta el valor según lo necesario */
+    width: 180px; /* Ajusta el tamaño según lo necesario */
+    height: auto;
+}
 .read-more {
     color: #003366;
     font-weight: 600;
