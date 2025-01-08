@@ -13,9 +13,7 @@
     <header>
         <div class="header-content">
             <h1>Asesoría Legal de Inmigración en EE. UU.</h1>
-            <p>Proteja sus derechos con la ayuda de un abogado experto en inmigración con muchos años de trayectoria.
-                
-            </p>
+            <p>Proteja sus derechos con la ayuda de un abogado experto en inmigración con muchos años de trayectoria.</p>
             <p>-Cesar Florian</p>
             <a href="#contacto" class="cta-button">Agende una consulta</a>
         </div>
@@ -44,21 +42,24 @@
         <center><p>Manténgase al día con los cambios en las leyes de inmigración y reciba consejos útiles.</p></center>
         
         <div class="blog-entry">
-            <h3><a href="/Cesar-Florian-Abogado/trabajo.html">Cómo Solicitar la Visa de Trabajo H-1B: Paso a Paso</a></h3>
+            <!-- Corrección de la ruta -->
+            <h3><a href="trabajo.html">Cómo Solicitar la Visa de Trabajo H-1B: Paso a Paso</a></h3>
             <p>Aprenda los pasos esenciales para solicitar la visa H-1B y aumentar sus posibilidades de éxito...</p>
-            <a href="/Cesar-Florian-Abogado/trabajo.html" class="read-more">Leer más</a>
+            <a href="trabajo.html" class="read-more">Leer más</a>
         </div>
 
         <div class="blog-entry">
-            <h3><a href="/Cesar-Florian-Abogado/ciudadania.html">Lo que Debe Saber sobre la Ciudadanía Estadounidense</a></h3>
+            <!-- Corrección de la ruta -->
+            <h3><a href="ciudadania.html">Lo que Debe Saber sobre la Ciudadanía Estadounidense</a></h3>
             <p>Descubra los requisitos y el proceso para obtener la ciudadanía estadounidense...</p>
-            <a href="/Cesar-Florian-Abogado/ciudadania.html" class="read-more">Leer más</a>
+            <a href="ciudadania.html" class="read-more">Leer más</a>
         </div>
 
         <div class="blog-entry">
-            <h3><a href="/Cesar-Florian-Abogado/denegacion.html">¿Qué Hacer si le Niegan la Visa?</a></h3>
+            <!-- Corrección de la ruta -->
+            <h3><a href="denegacion.html">¿Qué Hacer si le Niegan la Visa?</a></h3>
             <p>Si le han negado la visa, no se preocupe. En este artículo le explicamos qué opciones tiene...</p>
-            <a href="/Cesar-Florian-Abogado/denegacion.html" class="read-more">Leer más</a>
+            <a href="denegacion.html" class="read-more">Leer más</a>
         </div>
 
     </section>
@@ -98,26 +99,26 @@
     </footer>
 
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script>
-    (function() {
-        emailjs.init("0sHsPa5Bqow52X2dW");  // Usa tu user_id
-    })();
+    <script>
+        (function() {
+            emailjs.init("0sHsPa5Bqow52X2dW");  // Usa tu user_id
+        })();
 
-    document.getElementById("contact-form").addEventListener("submit", function(event) {
-        event.preventDefault();
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault();
 
-        // Verifica que el formulario esté siendo enviado correctamente
-        const form = event.target;
-        emailjs.sendForm("service_hy1tfoi", "template_vw5xzlq", form)
-            .then(function(response) {
-                alert("¡Gracias por contactarnos, " + form.name.value + "! Nos pondremos en contacto contigo pronto.");
-            })
-            .catch(function(error) {
-                console.error("Error al enviar el mensaje:", error);  // Imprime más detalles en la consola
-                alert("Hubo un problema al enviar el mensaje. Intenta nuevamente.");
-            });
-    });
-</script>
+            // Verifica que el formulario esté siendo enviado correctamente
+            const form = event.target;
+            emailjs.sendForm("service_hy1tfoi", "template_vw5xzlq", form)
+                .then(function(response) {
+                    alert("¡Gracias por contactarnos, " + form.name.value + "! Nos pondremos en contacto contigo pronto.");
+                })
+                .catch(function(error) {
+                    console.error("Error al enviar el mensaje:", error);  // Imprime más detalles en la consola
+                    alert("Hubo un problema al enviar el mensaje. Intenta nuevamente.");
+                });
+        });
+    </script>
 
 </body>
 </html>
